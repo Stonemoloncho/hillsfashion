@@ -1,0 +1,356 @@
+span{
+    color: white;
+}
+*{
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+/* ===========header begins======= */
+header{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+header span{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    justify-content: space-between; 
+    
+}
+nav{
+    display: flex;
+    padding-left: 400px;
+    align-items: center; 
+}
+header a{
+    padding: 10px;
+}
+header nav a::after{
+    content: "";
+    display: flex;
+    width: 0%;
+    background-color: black;
+    height: 2px;
+    margin-top: 5px;
+    transition: 2s;
+}
+a:hover::after{
+    width: 100%;
+}
+header nav a:active{
+ border: 3px solid rgba(0, 0, 0, 0.427);
+}
+header div button{
+  height: 40px;
+  border-radius: 10%;
+  border: 0 none black;
+  background-color: black;
+  color: white;
+  transition: 2s;
+}
+header div button:hover{
+    background-color: white;
+    color: black;
+}
+header div{
+    display: inline-block;
+    /* background-color: blue; */
+     width: 15%; 
+}
+/* ==========header ends========= */
+/* ===============sub header begins============ */
+.subheader{
+    background-color: black;
+    color: white;
+    height: 30vh;
+}
+.subheader p{
+    padding-bottom:5px;
+}
+.subheader .box{
+   width: 10%;
+   height: 20vh;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+   font-weight: bold;
+   font-size: xx-large;
+}
+.subheader small{
+    font-size: x-small ;
+    text-align: center;
+}
+.subheader .box{
+    background-color: black;
+    width: fit-content;
+}
+/* ===========sun header ends========= */
+/* ================body1 begins============= */
+#body1{
+    margin-top: 50px;
+}
+#body1 article {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.body1  img{
+width: 700px;
+height: 50vh;
+margin-left: 30px;
+}
+#body1 .box3{
+    width: 30%;
+    height: 50vh;
+    background-color: white;
+    margin-left:-20px;
+    padding: 20px;
+}
+.btn{
+    height: 40px;
+    width: 30%;
+    margin-top: 30px;
+  border-radius: 10%;
+  border: 0 none black;
+  background-color: black;
+  color: white;
+  transition: 2s
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+/* =============body1 ends========= */
+/* ===============body2 begins============ */
+.body2 .btn2{
+    height: 40px;
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 40%;
+  border-radius: 5%;
+  border: 0 none black;
+  background-color: black;
+  color: white;
+  transition: 2s
+  
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.body2 .div{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    margin-top: 10px ;
+    margin: 100px;
+}
+/* ============body2 ends======== */
+/* ==============body3 begiins=========== */
+.body3 img{
+    height: 30vh;
+}
+.body3{
+    display: flex;
+    gap: 40px;
+    margin: 110px;
+}
+.body3 div{
+    width: 70%;
+}
+.body3 div h2{
+    font-size: xx-large;
+    margin-bottom: 50px;
+}
+.body3 div p{
+    font-size: larger;
+}
+.body3 div button{
+    height: 40px;
+    width: 25%;
+    margin-top: 30px;
+    /* margin-left: 40%; */
+  border-radius: 10%;
+  border: 0 none black;
+  background-color: black;
+  color: white;
+  transition: 2s
+}
+.body3 div button:hover{
+    background-color: white;
+    color: black;
+}
+.body3 article span{
+    color: rgb(255, 217, 0);
+}
+/* ============body3============== */
+/* ================body4================= */
+.body4{
+    width: 100%;
+    display: flex;
+    margin: 0px;
+}
+.body4 .box2 h3{
+   font-size: xx-large;
+   padding-bottom: 20px;
+}
+.body4 .box2{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.297);
+    height: 40vh;
+    padding: 70px;
+}
+.body4 .box3{
+    width: 50%;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.795);
+    padding: 70px ;
+}
+.body4 .box3 h3{
+    font-size:xx-large ;
+    padding-bottom: 20px;
+}
+.body4 .box2 p{
+    font-size: larger;
+}
+.body4 .box3 p{
+    font-size: larger;
+    color: white;
+}
+.body4 button{
+    height: 40px;
+    width: 25%;
+    margin-top: 30px;
+    /* margin-left: 40%; */
+  border-radius: 10%;
+  border: 0 none black;
+  background-color: black;
+  color: white;
+  transition: 2s
+}
+.body4 button:hover{
+    background-color: white;
+    color: black;
+}
+/* =============body4 ends========== */
+/* ================body5 begins============= */
+ .body5 h1{
+    font-size: x-large;
+    margin-left: 45%;
+    margin-top: 30px;
+ }
+ .body5 h3{
+    font-size: large;
+    margin-top: 20px ;
+ }
+ .body5{
+    height: 30vh;
+
+ }
+ /* ===================body5 ends================== */
+ /* ======================footer begins================= */
+ .footer{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 90px;
+    background-color: rgba(0, 0, 0, 0.923);
+    height: 30vh;
+ }
+ .footer .container1{
+    height: 40vh;
+ }
+ .footer .container1 .line{
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 20px;
+ }
+ .footer .container1 p{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 10px;
+    color: aliceblue;
+ }
+.footer .container1 ul{
+    color: aliceblue;
+}
+.footer .container1 a{
+    color: aliceblue;
+}
+.footer .container2{
+    height: 40vh;
+ }
+ .footer .container2 .line{
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 20px;
+ }
+ .footer .container2 p{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 10px;
+    color: aliceblue;
+ }
+.footer .container2 ul{
+    color: aliceblue;
+}
+.footer .container2 a{
+    color: aliceblue;
+}
+.footer .container3{
+    height: 40vh;
+ }
+ .footer .container3 .line{
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 20px;
+ }
+ .footer .container3 p{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 10px;
+    color: aliceblue;
+ }
+.footer .container3 ul{
+    color: aliceblue;
+}
+.footer .container3 a{
+    color: aliceblue;
+}
+.container4{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    /* background-color: aqua; */
+    width: 10%;
+}
+.container4 .icon{
+background-color: gray;
+height: 30px;
+width: 30px;
+}
+.container4 .icon i{
+    color: white ;
+    margin: 10px;
+    font-size: large;
+}
+/* .container4 #icon {
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+}
+.container4 #icon i{
+    color: white;
+} */

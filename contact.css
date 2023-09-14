@@ -1,0 +1,204 @@
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    /* justify-content: ; */
+    align-items: center;
+    /* padding: -5px; */
+    margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+ header a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+} 
+header nav a::after{
+    content: "";
+    display: block;
+    width: 0%;
+    background-color: black;
+    height: 2px;
+    margin-top: 5px;
+    transition: 1s;
+}
+a:hover::after{
+    width: 100%;
+}
+nav{
+    padding-left: 700px;
+    display: flex;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 50px;
+    /* margin-top: 30px; */
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: 2s;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+/* ==============header ends================ */
+/* ================sub header begins============== */
+.subheader{
+    background-color: black;
+    color: white;
+    height: 30vh;
+    margin-top: 100px ;
+    position: relative;
+    z-index: 1;
+}
+.subheader p{
+    padding-bottom:5px;
+}
+.subheader .box{
+   width: 10%;
+   height: 20vh;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 50px;
+   font-weight: bold;
+   font-size: xx-large;
+}
+.subheader small{
+    font-size: x-small ;
+    text-align: center;
+}
+.subheader .box{
+    background-color: black;
+    width: fit-content;
+}
+/* ================sub header ends============= */
+/* ===================body 1 begins=================== */
+#contact{
+    padding:40px 80px ;
+    background-color: #eee;
+}
+#contact > p{
+    text-align: center;
+
+}
+#contact #box{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+#contact #box .box1{
+    flex-basis: 20%;
+ text-align: center;
+ background-color: #fff;
+ border-radius: 15px;
+ box-shadow: 0 0 10px  ;
+ padding: 15px; 
+}
+#contact #box .box1 a{
+    text-decoration: none;
+    color: black;
+}
+/* ===============body 1 ends======================== */
+/* ==================footer starts======================= */
+.footer{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 90px;
+    background-color: rgba(0, 0, 0, 0.923);
+    height: 30vh;
+ }
+ .footer .container1{
+    height: 40vh;
+ }
+ .footer .container1 .line{
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 20px;
+ }
+ .footer .container1 p{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 10px;
+    color: aliceblue;
+ }
+.footer .container1 ul{
+    color: aliceblue;
+}
+.footer .container1 a{
+    color: aliceblue;
+}
+.footer .container2{
+    height: 40vh;
+ }
+ .footer .container2 .line{
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 20px;
+ }
+ .footer .container2 p{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 10px;
+    color: aliceblue;
+ }
+.footer .container2 ul{
+    color: aliceblue;
+}
+.footer .container2 a{
+    color: aliceblue;
+}
+.footer .container3{
+    height: 40vh;
+ }
+ .footer .container3 .line{
+    height: 15px;
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 20px;
+ }
+ .footer .container3 p{
+    font-weight: 500;
+    font-size: larger;
+    margin-bottom: 10px;
+    color: aliceblue;
+ }
+.footer .container3 ul{
+    color: aliceblue;
+}
+.footer .container3 a{
+    color: aliceblue;
+}
+.container4{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
+    /* background-color: aqua; */
+    width: 10%;
+}
+.container4 .icon{
+background-color: gray;
+height: 30px;
+width: 30px;
+}
+.container4 .icon i{
+    color: white ;
+    margin: 10px;
+    font-size: large;
+}
+.footer .container4 a{
+    text-decoration: none;
+}
+.footer .container4 a:hover{
+    text-decoration: dashed;
+}
